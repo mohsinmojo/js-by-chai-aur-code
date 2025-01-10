@@ -2,24 +2,26 @@
 
 //alert(3+3) we are using nodejs not browser
 
-console.log(3+
-    3)//code redability should be high
+// console.log(3+
+//     3)//code redability should be high
 
-    let name = "mohsin"
-    let age = 2
-    let isloggedIn = "false"
-    let state; 
+    let name = "mohsin"//string data type
+    let age = 2// number datatype
+    let isloggedIn = "false"//boolean datatype
+    let state;//undefine 
+    // console.log(state);
+    
 
    //datatypes
 
-//nimber=> 2 to the power 52
-//bigint
-//string = ""
-//boolean => true/false
-//null => standalone value
-//undefinde =>
-//symbol => uniqueness
-//object 
+//Number=> 2 to the power 52
+//Bigint
+//String = ""
+//Boolean => true/false
+//Null => standalone value
+//Undefinde =>
+//Symbol => uniqueness
+//Object 
 
-console.log(typeof undefined);//output of it undefined
-console.log(typeof null);//output of it object
+// console.log(typeof undefined);//output of it undefined
+// console.log(typeof null);//output of it object
