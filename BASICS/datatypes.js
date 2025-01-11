@@ -9,7 +9,7 @@
     let age = 2// number datatype
     let isloggedIn = "false"//boolean datatype
     let state;//undefine 
-    // console.log(state);
+    //console.log(state);
     
 
    //datatypes
@@ -24,4 +24,4 @@
 //Object 
 
 // console.log(typeof undefined);//output of it undefined
-// console.log(typeof null);//output of it object
+//console.log(typeof null);//output of it object
