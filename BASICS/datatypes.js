@@ -11,8 +11,7 @@
     let state;//undefine 
     //console.log(state);
     
-
-   //datatypes
+//datatypes
 
 //Number=> 2 to the power 52
 //Bigint
