@@ -9,11 +9,23 @@ const myReach = false
 // console.log(4 != 4);
 // const anotherName = Boolean(myReach)
 // console.log(typeof anotherName);
-const heros = "mohsin"
+// const heros = "mohsin"
 const vellain = " mohsin"
-console.log(`hello this is ${heros} and this is ${vellain}`);
+// console.log(`hello this is ${heros} and this is ${vellain}`);
 const gameName = new String('mohsin-md-rose')
-console.log(gameName);
+// console.log(gameName);
+
+const heros = "ironman"
+const code = "79038"
+
+// console.log(`hello i am ${heros} and my code is ${code}`);
+
+const real = "how are you my name name is mohd mohsin"
+console.log(real.split(" "));
+
+
+
+
 
 
 

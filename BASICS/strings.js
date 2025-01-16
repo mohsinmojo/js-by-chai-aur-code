@@ -17,6 +17,8 @@ console.log(gameName.indexOf('d'));
 console.log(typeof gameName);
 console.log(gameName.toLowerCase());
 console.log(gameName.charCodeAt());
+console.log(tense.trim()); 
+console.log(tense.repeat(2)); 
 
 const newString = gameName.substring(1, 4)
 console.log(newString);
