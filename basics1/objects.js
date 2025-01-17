@@ -11,7 +11,7 @@ const myUser = {
     name: "mohsin",
     [mySymbol]: "mykey1",
     age: 40,
-    email: "mohsdhd@gmail.com",
+    email: "mohsdhd@gmail.com",  //this is object literals
     Id: "rajamohan",
     password: 67398,
     logIn: false,
@@ -35,6 +35,13 @@ myUser.greetingtwo = function(){
     console.log(`hello user ${this.name} how are you`);
     
 }
-console.log(myUser.greeting());
-console.log(myUser.greetingtwo());
+// console.log(myUser.greeting());
+// console.log(myUser.greetingtwo());
+
+//===================================================================================================
+
+
+
+
+
 
