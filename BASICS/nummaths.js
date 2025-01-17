@@ -1,17 +1,17 @@
 const value = 5000
 // console.log(value);
 const score = new Number(1000.87804)
-// console.log(score.toString().charAt(1));
-// console.log(score.toFixed(2));
+// console.log(score.toString().charAt(1));     it will give u number of strings 0=1,1=0
+// console.log(score.toFixed(2)); ye point waale number ko fixed yaani point ke baad kitni value chahiye or round figur bhi kar deta hai
 
 const anyNumber = 23.8980
-// console.log(anyNumber.toPrecision(4));
+// console.log(anyNumber.toPrecision(4));// ye value ko precise yani round figure main deta hai
 
 const oneNumber = 10000000
-// console.log(oneNumber.toLocaleString());
-// console.log(oneNumber.toLocaleString(`en-IN`));
-// console.log(Number.MIN_VALUE);
-// console.log(Number.MAX_VALUE);
+// console.log(oneNumber.toLocaleString()); ye kisi bhi number ya date ko local yaani internantional indent main change kar deta hai
+// console.log(oneNumber.toLocaleString(`en-IN`));ye kisi bhi number ya date ko local yaani indin indent main change kar deta hai
+// console.log(Number.MIN_VALUE); smallest positive number possible in javascript
+// console.log(Number.MAX_VALUE); largest positive number possible in javascript
 // console.log(Number.EPSILON);
 
 // ======================Maths=======================================================
@@ -27,9 +27,9 @@ const oneNumber = 10000000
 // console.log(Math.max(123, 234, 432));//max value
 // console.log(Math.sin(45));//trigo value
 
-console.log(Math.random());//iski value hamesha 0-1 ke bich main aati hai
-console.log((Math.random()*10) + 1);
-console.log(Math.floor(Math.random()*10) + 1);
+// console.log(Math.random());//iski value hamesha 0-1 ke bich main aati hai
+// console.log((Math.random()*10) + 1);
+// console.log(Math.floor(Math.random()*10) + 1);
 
 const min = 20 
 const max = 30 

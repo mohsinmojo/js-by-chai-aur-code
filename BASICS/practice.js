@@ -21,8 +21,19 @@ const code = "79038"
 // console.log(`hello i am ${heros} and my code is ${code}`);
 
 const real = "how are you my name name is mohd mohsin"
-console.log(real.split(" "));
+// console.log(real.split(" "));
 
+
+
+
+//========================================================================================================
+
+// console.log(Math.random()*10 + 1);
+ 
+
+// let max = 50
+// let min = 100
+// console.log(Math.floor(Math.random() * (max - min +1)) + min);
 
 
 
