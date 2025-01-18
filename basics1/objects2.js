@@ -39,9 +39,26 @@ const users = [
 ]
 users[1].email
 
-console.log(user2);
-console.log(Object.keys(user2))//whenever we want objects keys to we usee this structure
-console.log(Object.values(user2))//whenever we want objects values to we usee this structure
-console.log(Object.entries(user2))
-console.log(user2.hasOwnproperty('logIn'));
+// console.log(user2);
+// console.log(Object.keys(user2))//whenever we want objects keys to we usee this structure
+// console.log(Object.values(user2))//whenever we want objects values to we usee this structure
+// console.log(Object.entries(user2))
+// console.log(user2.hasOwnproperty('logIn'));
+
+
+const  mySymbol = Symbol("reason")
+
+const course = {
+    teacher: "mohsin",
+    price: "666",
+    duration: "6 month",
+    [mySymbol]: "reason",
+
+}
+
+const {teacher: guruji} = course  //yeh nya tarika hai jisse hum object ki kisi bhi value nikal sakte hai
+
+
+console.log(teacher);
+console.log(guruji);
 

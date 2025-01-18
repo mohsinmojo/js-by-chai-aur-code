@@ -19,7 +19,7 @@ const myUser = {
 }
 // console.log(myUser.name);
 // console.log(myUser["full name"]);
-// console.log(myUser[mySymbol]);
+console.log(myUser[mySymbol]);
 
 myUser.email = "mohdmohsin@gmail.com"
 // console.log(myUser.email);
@@ -27,12 +27,12 @@ myUser.email = "mohdmohsin@gmail.com"
 myUser.email = "mohdanish@gmail.com"
 // console.log(myUser);
 myUser.greeting = function(){
-    console.log("hello user");
+    // console.log("hello user");
     
 }
 
 myUser.greetingtwo = function(){
-    console.log(`hello user ${this.name} how are you`);
+    // console.log(`hello user ${this.name} how are you`);
     
 }
 // console.log(myUser.greeting());
