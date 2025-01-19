@@ -6,7 +6,7 @@ const myArr2 = new Array(1, 2, 3, 4, 5)
 // console.log(myArr[1]);
 //array methods
 
-// const rArray = [2, 3, 4, 5, 6]
+const rArray = [2, 3, 4, 5, 6]
 
 
 // rArray.push(7)   //push means add karna 
@@ -30,7 +30,7 @@ const myArr2 = new Array(1, 2, 3, 4, 5)
 
 //slice, splice
 
-const rArray = [0, 1, 2, 3, 4]
+// const rArray = [0, 1, 2, 3, 4]
 
 // console.log("m ", rArray);
 const array1 = rArray.slice(1, 4)
@@ -59,16 +59,16 @@ const real_another_array = realArray.flat(Infinity)
 // console.log(real_another_array);
 
 
-console.log(Array.isArray("mohsin"))
-console.log(Array.from("mohsin"))
-console.log(Array.from({name: "mohsin"}))//intersting for interview
+// console.log(Array.isArray("mohsin"))
+// console.log(Array.from("mohsin"))
+// console.log(Array.from({name: "mohsin"}))//intersting for interview
 
 let score1 = 1000
 let score2 = 2000
 let score3 = 3000
  
 
-console.log(Array.of(score1, score2, score3));
+// console.log(Array.of(score1, score2, score3));
 
 
 

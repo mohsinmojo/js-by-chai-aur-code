@@ -17,7 +17,7 @@ let date = new Date()
 // let newDate = new Date("2025-01-14")
 // console.log(newDate.toLocaleString());
 
-let newDate = new Date("01-14-2025")
+// let newDate = new Date("01-14-2025")
 // console.log(newDate.toLocaleString());
 
 // ==================time======================================
@@ -29,12 +29,14 @@ let timestamp = Date.now()
 // console.log(Math.floor(Date.now()/1000));
 
 let oneDate = new Date()
-console.log(oneDate.getMonth() + 1);
-console.log(oneDate.getDay());
+// console.log(oneDate.getMonth() + 1);
+// console.log(oneDate.getDay());
 
-oneDate.toLocaleString('default'{
-    weekday: "narrow"
-})
+// oneDate.toLocaleString('default'{
+//     weekday: "narrow"
+// })
+
+
 
 
 
